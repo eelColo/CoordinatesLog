@@ -37,9 +37,9 @@ public class Coordinates {
 
     public String getDimension() {
         if (dimension != null && dimension.contains(":")) {
-            return dimension.split(":")[1]; // devuelve solo "overworld"
+            return dimension.split(":")[1];
         } else {
-            return dimension; // devuelve lo que haya o null
+            return dimension;
         }
     }
 
